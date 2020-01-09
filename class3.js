@@ -8,8 +8,7 @@ let jsonString = [{
     surname: {
         address: "kathmandu"
     }
-}
-];
+}];
 
 let data = [{
     id: 1,
@@ -21,7 +20,7 @@ let data = [{
     add: function (a, b) {
         return a + b;
     }
-}]
+}];
 // index = prompt("Enter the index");
 // let array = ["i", "am", "mohan", "kumar", "dhakal"];
 // delete array[+index];
@@ -42,8 +41,28 @@ let data = [{
 // alert(newArray);
 
 // let add = (a, b) => a + b;
-result = (() => (prompt("Enter a Number") % 2 == 0) ? "even" : "odd");
-alert(result());
+// let result = (() => (prompt("Enter a Number") % 2 == 0) ? alert("even") : alert("odd"));
 
+// result();
+// ["kathmandu", "lalitpur", "bhaktapur"].forEach((item, index, array) => {
+//     alert(`${item}is at index ${index}in ${array}`);
+// });
+
+let users = [
+    {
+        id: 1,
+        name: "kathmandu",
+    }, {
+        id: 2,
+        name: "laltipur",
+    }, {
+        id: 3,
+        name: "bhaktapur",
+    }
+];
+// let user = users.find(item => item.id == 1);
+// alert(user.name);
+let someUsers = users.filter(item => item.id < 3);
+alert(someUsers[0].name);
 // alert(jsonString[1].surname.address);
 // alert(data[1].add(2, 3));
