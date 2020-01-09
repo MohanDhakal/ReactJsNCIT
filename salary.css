@@ -1,0 +1,39 @@
+.form{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    background-color: azure;
+    border: 2px solid rgb(196, 194, 194); /* Green */
+
+}
+#submitBtn{
+    height: 40px;
+    width: 150px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 2px solid #4CAF50; /* Green */
+    color: black;
+
+
+}
+#salary{
+    margin-top: 10px;
+    width:80px;
+    height: 20px;
+    margin-right: 5px;
+    
+}
+#submitBtn {border-radius: 20px;}
+
+#submitBtn:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  #submitBtn {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  #submitBtn:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
