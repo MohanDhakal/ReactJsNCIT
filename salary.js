@@ -1,4 +1,3 @@
-
 let salary, type, taxAmount;
 let discount = 0.5;
 /*salary constants*/
